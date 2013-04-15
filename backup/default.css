@@ -1,0 +1,356 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px;
+	background: #C0C0C0 url(images/bak_head_02.jpg) repeat-x left top;
+	text-align: justify;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #7D807A;
+}
+
+h1, h2, h3 {
+	color: #FFFFFF;
+}
+
+h1 {
+
+	padding: 10px 0px 0px 0px;
+	font-family: "Trebuchet MS";
+	font-size: 28px;
+	font-weight: bolder;
+	line-height: 30px;
+}
+
+h2 {
+	padding: 0px 10px;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 16px;
+}
+
+h3 {
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 10px;
+	line-height: 2em;
+}
+
+p {
+}
+
+blockquote {
+}
+
+ul, ol, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: underline;
+	color: #E14949;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #C11414;
+}
+
+/* Wrapper */
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 599px;
+	height: 152px;
+	margin: 0 0;
+	background: url(images/bak_head_01.jpg) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 222px;
+	height: 30px;
+	margin: 0px;
+	padding-left: 45px;
+	padding-top: 100px;
+	text-align: left;
+}
+
+#logo h2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#logo a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 1000px;
+	margin: 0 0;
+	padding: 0px 0px;
+	background: url(images/img04.jpg) repeat-y left top;
+}
+
+#page-bgtop {
+	margin: 0px;
+	padding: 0px 35px;
+	background-color: #FFFFFF;
+}
+
+/* Navside */
+
+#navside {
+	width: 245px;	
+	background-color: #999999;
+	float: left;
+}
+
+#personal-info{
+	width: 245px;
+	padding-bottom: 10px;
+	background-color: #CC0000;
+}
+
+#personal-info a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#personal-info a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#photo{
+	width: 225px;
+	padding: 10px;
+	background-color: #999999;
+}
+
+#myphoto{
+	width: 225px;
+}
+
+#menuside{
+	width: 225px;
+	padding: 10px;
+	background-color: #999999;
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#menuside a {
+	display:block;
+	padding-left:25px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menuside .active a {
+	display:block;
+	padding-left:25px;
+	background:url(images/bak_head_04.png) no-repeat left center;
+	text-decoration: underline;
+	color: #CC0000;
+}
+
+#menuside a:hover {
+	display:block;
+	padding-left:25px;
+	background:url(images/bak_head_03.png) no-repeat left center;
+	text-decoration: underline;
+	color: #CC0000;
+}
+
+#navside-footer{
+	background-color: #999999;
+	background: url(images/bak_head_05.gif) no-repeat right bottom;
+	height: 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 600px;
+	padding-top: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#content li{
+	list-style:disc;
+	margin-left: 10px;
+}
+
+.post {
+	background: url(images/img04.gif) repeat-x left bottom;
+	margin: 0px 0px 30px 0px;
+	border-bottom: 1px solid #CFCAB8;
+}
+
+.post .title {
+	margin: 0px;
+	color: #BF0B0B;
+}
+
+.post .title a {
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 28px;
+	font-weight: normal;
+	font-style: italic;
+	color: #BF0B0B;
+}
+
+.post .entry {
+	padding: 20px 0px;
+}
+
+.post img {
+	float: left;
+	padding: 15px 0px;
+}
+
+.post .meta {
+	text-align: right;
+	padding: 0px 0 10px 0;
+	font-weight: bold;
+	color: #202020;
+}
+
+.post .byline {
+	font-size: 12px;
+	font-style: italic;
+	text-transform: lowercase;
+	color: #7D807A;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 300px;
+	padding: 100px 0px 0px 0px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#sidebar li {
+	margin-bottom: 1px;
+}
+
+#sidebar li ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 40px 50px;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 7px 0px;
+	border-bottom: 1px solid #998D62;
+	background: none;
+}
+
+#sidebar h2 {
+	height: 35px;
+	margin: 0px;
+	padding: 10px 0px 10px 50px;
+	background: url(images/img07.jpg) no-repeat left top;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	color: #524B36;
+}
+
+#sidebar h3 {
+	font-size: 77%;
+	color: #110404;
+}
+
+#sidebar p {
+	margin: 0;
+	line-height: normal;
+	color: #D4C792;
+}
+
+#sidebar a {
+	border: none;
+	text-decoration: none;
+	color: #4E4628;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/* Submenu */
+
+#submenu {
+}
+
+/* News */
+
+#news {
+}
+
+#news a {
+	font-size: 85%;
+}
+
+/* Footer */
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	color: #9C9C9C;
+}
+
+#footer p {
+	margin: 0;
+	padding: 60px 40px;
+	text-align: left;
+	font-size: 11px;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #808080;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}

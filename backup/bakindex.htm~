@@ -1,0 +1,28 @@
+<hTML>
+<HEAD>
+<TITLE>CS Student Web Page</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+ 
+<FONT face="arial, helvetica">
+<FONT size=+2><FONT color="#FF0000"><h1>
+CS Student Name
+</H1></FONT>
+</font></font>
+
+
+
+I am a computer science student at UTSA.  My interests include:
+<p>
+<UL>
+<h1>Hello World!!!</h1>
+<LI>Studying
+<LI>Programming
+<LI>Other 
+</UL>
+ 
+ 
+</BODY>
+</HTML>
+
