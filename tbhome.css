@@ -21,13 +21,15 @@ body {
 
 h1, h2, h3 {
 	color: #FFFFFF;
+	margin: 0px;
 }
 
 h1 {
-	padding: 10px 0px 0px 0px;
+	padding: 0px 20px;
 	font-family: "Trebuchet MS", "zhongwen";
 	font-size: 26px;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 @font-face {
@@ -50,7 +52,7 @@ h3 {
 
 p, blockquote, ul, ol {
 	margin-bottom: 10px;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
 p {
@@ -91,7 +93,7 @@ a:hover {
 }
 /* Logo */
 
-#logo {
+.logo {
 	float: left;
 	width: 235px;
 /*	height: 30px;  */
@@ -101,19 +103,20 @@ a:hover {
 	text-align: left;
 }
 
-#logo h2 {
+.logo h2 {
 	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
 
-#logo a {
+.logo a {
 	text-decoration: underline;
 	color: #FFFFFF;
 }
 
 /* Logo2 */
 
+/*
 #logo2 {
 	float: left;
 	width: 220px;
@@ -141,6 +144,7 @@ a:hover {
 	font-weight: bold;
 	display: block;
 }
+*/
 
 /* Page */
 
@@ -148,43 +152,43 @@ a:hover {
 	width: 1000px;
 }
 
-#page-bgtop {
+.page-bgtop {
 	padding: 0px 35px;
 	background:url(images/handle.png) no-repeat right bottom;
 	background-color: #FFFFFF;
 }
 
-#leftside {
+.leftside {
 	width: 245px;
 	float: left;
 	margin-bottom: 30px;
-}
-
-/* Navside */
-
-#navside {
-	width: 245px;
+	margin-top: -32px;
 	background-color: #999999;
 }
 
-#personal-info{
+.leftside h2 {
+    padding: 0px 20px;
+}
+
+
+.personal-info{
 	width: 245px;
 	padding-bottom: 10px;
 	background-color: #CC0000;
 }
 
-#personal-info a {
+.personal-info a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
-#personal-info a:hover {
+.personal-info a:hover {
 	text-decoration: underline;
 	color: #FFFFFF;
 }
 
 #photo, #mytitle{
-	width: 225px;
+	width: 245px;
 	padding: 10px;
 	background-color: #999999;
 }
@@ -193,43 +197,38 @@ a:hover {
 	width: 225px;
 }
 
-#menuside{
-	width: 225px;
+.navside{
+	width: 245px;
 	padding: 10px;
 	background-color: #999999;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 18px;
 	font-weight: bold;
+
 }
 
-#menuside a {
+.navside a {
 	display:block;
 	padding-left:25px;
 	text-decoration: none;
 	color: #FFFFFF;
+	line-height: 2em;
+	margin-right:-10px;
 }
 
-#menuside .active a {
-	display:block;
-	padding-left:25px;
-	margin-right:-10px;
+.navside .active a {
 	background:url(images/bak_head_04.png) no-repeat left bottom;
 	background-color:#FFFFFF;
-	text-decoration: underline;
 	color: #CC0000;
 }
 
-#menuside a:hover {
-	display:block;
-	padding-left:25px;
-	margin-right:-10px;
+.navside a:hover {
 	background:url(images/bak_head_03.png) no-repeat left bottom;
 	background-color:#CCCCCC;
-	text-decoration: underline;
 	color: #CC0000;
 }
 
-#navside-footer{
+.navfooter{
 	background-color: #999999;
 	background: url(images/bak_head_05.gif) no-repeat right bottom;
 	height: 20px;
@@ -238,7 +237,7 @@ a:hover {
 	
 /* Content */
 
-#content {
+.content {
 	float: left;
 	width: 600px;
 	padding-top: 30px;
@@ -246,12 +245,12 @@ a:hover {
 	padding-left: 40px;
 }
 
-#content li{
+.content li{
 	list-style:disc;
 	margin-left: 10px;
 }
 
-#content li ul li{
+.content li ul li{
 	list-style: circle;
 	margin-left: 10px;
 }
@@ -272,7 +271,7 @@ a:hover {
 }
 
 .post {
-	background: url(images/img04.gif) repeat-x left bottom;
+	/* background: url(images/img04.gif) repeat-x left bottom; */
 	margin: 0px 0px 30px 0px;
 	border-bottom: 1px solid #CFCAB8;
 }
@@ -297,6 +296,8 @@ a:hover {
 	padding: 20px 0px;
 }
 
+
+
 .post img {
 	float: left;
 	padding: 15px 0px;
@@ -312,7 +313,7 @@ a:hover {
 .post .byline {
 	font-size: 12px;
 	font-style: italic;
-//	text-transform: lowercase;
+	/* text-transform: lowercase; */
 	color: #7D807A;
 }
 
